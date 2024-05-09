@@ -1,0 +1,73 @@
+.dropbtn {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {
+    background-color: gray;
+    color: white;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.dropdown:hover .dropbtn {
+    background-color: black;
+  }
+  
+h1 {
+    color: white;
+    text-align: center;}
+
+p {
+    font-family: verdana;
+    font-size: 15px;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url();
+  background-color: brown;
+  }
+
+header { 
+    background-color: #666;
+    background-image: url(Logo-CNN-Indonesia-Peta-Indonesia2.jpg); 
+    padding: 30px;
+    text-align: center;
+    font-size: 43px;
+    color: white;}
+
+article { 
+      flex: auto;
+      padding: 20px;
+      width: auto;
+      background-color: #f1f1f1;
+      height: 500px;
+    }
+
+footer { 
+    padding: 30px;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    }
