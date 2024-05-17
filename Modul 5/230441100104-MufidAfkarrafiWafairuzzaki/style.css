@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    background-color: #4793AF;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+    }
+    
+    .navbar a {
+        padding: 18px;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+    
+    .navbar a:hover {
+        background-color: #51829B;
+    }
+    
+    .content h1{
+        text-align:center;
+    }
+    .content h3{
+        text-align:center;
+    }
+    .content h4{
+        text-align:center;
+    }
+    
